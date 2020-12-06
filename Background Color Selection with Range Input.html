@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Background Color Selection with Range Input</title>
+    <link rel="stylesheet" href="Background Color Selection with Range Input.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="circle1 circle"></div>
+        <div class="circle2 circle"></div>
+        <div class="circle3 circle"></div>
+        <div class="circle4 circle"></div>
+        <div class="wrapper">
+            <div class="content">
+                <input type="range" name="n" min="0" max="255" value="255" class="range range1" id="range1" title="Red">
+                <label for="range1" class="value value1">
+                    <div class="rangeValue rangeValue1">255</div>
+                    <div class="scroll"></div>
+                </label>
+            </div>
+            <div class="content">
+                <input type="range" name="n" min="0" max="255" value="255" class="range range2" id="range2" title="Green">
+                <label for="range2" class="value value2">
+                    <div class="rangeValue rangeValue2">255</div>
+                    <div class="scroll"></div>
+                </label>
+            </div>
+            <div class="content">
+                <input type="range" name="n" min="0" max="255" value="255" class="range range3" id="range3" title="Blue">
+                <label for="range3" class="value value3">
+                    <div class="rangeValue rangeValue3">255</div>
+                    <div class="scroll"></div>
+                </label>
+            </div>
+        </div>
+    </div>
+    <script src="Background Color Selection with Range Input.js"></script>
+</body>
+</html>
